@@ -2,5 +2,6 @@ services:
     ollama-webui-lite:
         build: .
         image: brunocaldara/ollama-webui-lite:v0.0.1
+        restart: always
         ports:
           - 3001:3000
